@@ -1,0 +1,89 @@
+.future-plan-manager-container {
+  max-width: 900px;
+  margin: auto;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .plan-form {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    input, textarea, select {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .form-actions {
+      text-align: right;
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        margin-left: 0.5rem;
+
+        &[type="submit"] {
+          background-color: #28a745;
+          color: white;
+          border-color: #28a745;
+        }
+      }
+    }
+  }
+
+  .plans-list {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .plan-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    h4 {
+      margin: 0 0 1rem 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1rem;
+    }
+
+    p {
+      color: #555;
+    }
+
+    .plan-footer {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #6c757d;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .plan-actions button {
+        margin-left: 0.5rem;
+        background: transparent;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+}
