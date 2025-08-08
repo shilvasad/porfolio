@@ -1,0 +1,11 @@
+// This component can share the same styles as EditBlogPost
+// We can create a common form stylesheet later if needed.
+// For now, just import the blog post styles.
+@import './EditBlogPost.scss';
+
+.edit-contribution-container {
+  // Inherits styles from .edit-blog-post-container
+  .contribution-form {
+    // Inherits styles from .blog-post-form
+  }
+}
